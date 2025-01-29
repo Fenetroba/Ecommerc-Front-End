@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { RiSearchLine } from 'react-icons/ri'
 const Item = ({products}) => {
   return (
-    <div className='items col'>
+    <div className='items'>
               <div className="items__contener ">
                           
                             <Link to={`/product/${products.id}`}><img src={products.image} /></Link>
