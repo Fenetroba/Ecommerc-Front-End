@@ -1,0 +1,35 @@
+/* li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+ul{
+    background-color: gold;
+
+}
+a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+}
+h4{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */

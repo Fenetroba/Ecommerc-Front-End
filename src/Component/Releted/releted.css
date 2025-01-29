@@ -1,0 +1,39 @@
+.reletedProduct{
+            padding: 40px;
+            
+           
+            
+              
+}
+.reletedProduct h1{
+              border-bottom: solid gold 5px;
+              margin-bottom: 40px;
+}
+.reletedProduct__contener{
+              margin: 50px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+           overflow: hidden;
+           
+
+
+}
+.itemProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemProduct h1{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background-color: #1d1e1e;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    
+}
+.display{
+    display: none;
+}

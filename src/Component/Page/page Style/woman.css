@@ -1,0 +1,82 @@
+.woman__contener{
+              margin: 50px;
+              display: flex;
+              justify-content: space-between;
+             
+}
+
+.woman__color__contener h1{
+  font-weight: 900;
+}
+
+.color__contener input{
+  opacity: 0;
+
+
+}
+
+ .woman__right__contener{
+  
+  width: 100%;
+  
+ }
+.woman__baner h1{
+  font-weight: 200;
+
+}
+.woman__baner h1 span{
+  color: goldenrod;
+  text-decoration: underline solid 10px;
+  font-weight: 800;
+
+}
+.woman__baner__top__color{
+  width: 100%;
+  height: 200px;
+  background: rgb(13, 13, 14);
+}
+
+
+.woman__baner__top__color img{
+  height: 200px;
+  
+}
+
+.woman__baner__logo{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+.woman__baner__logo img{
+  width: 100px;
+  height: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid gold 1px;
+  padding: 20px;
+}
+.woman__central{
+  display: flex;
+  flex-wrap: wrap; 
+  margin: 40px 0;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width:650px) {
+  .woman__baner h1{
+    font-size: 20px;
+   
+  }
+  .woman__baner {
+   text-decoration: none;
+  }
+  .woman__baner__logo{
+  flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+    
+  }
+  
+}

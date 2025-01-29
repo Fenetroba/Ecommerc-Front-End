@@ -1,0 +1,90 @@
+.login__central{
+            
+              box-shadow: 0 0 3px rgba(0,0,0, 0.8);
+              padding: 30px 0;
+              position: relative;
+              max-width:600px ;
+              margin:20px auto;
+              display: flex;
+              gap: 20px;
+              align-items: center;
+              justify-content: center;
+
+             
+
+}
+.login__contener h1{
+              text-align: center;
+              margin-top: 30px;
+}
+.login__contener{
+              padding: 40px;
+}
+.loginForm{
+              display: flex;
+              flex-direction: column;
+              width: 50%;
+
+}
+.login__sider img{
+              width: 200px;
+              height: 200px;
+             
+              background-color: goldenrod;
+              padding: 10px;
+              border-radius: 5px;
+
+
+}
+.loginForm input{
+              border: none;
+              outline: none;
+              padding: 7px 30px;
+              box-shadow: 0 0 3px rgba(0,0,0, 0.8);
+              margin: 10px 0;
+              border-radius: 5px;
+}
+
+.loginForm button{
+              padding: 7px 30px;
+              border: none;
+              outline: none;
+              background-color: goldenrod;
+              border-radius: 5px;
+              cursor: pointer;
+
+
+}
+.loginForm span{
+              box-shadow: 0 0 3px rgba(0,0,0, 0.8);
+              padding: 10px;
+              margin: 4px;
+              cursor: pointer;
+
+}
+.loginForm h2{
+              margin: 7px 0;
+}
+.signUp_page{
+     text-align: center;
+     padding: 5px;
+     margin: 4px 0;
+     background: #1d1d1d;
+     color: #cbcbcb;
+     border-radius: 4px;
+     cursor: pointer;
+}
+.signUp_page:active{
+     background: #474747;
+     color: #cbcbcb;
+}
+@media screen and (max-width:550px) {
+              
+     .login__central{
+              flex-direction: column;
+     }
+     
+     .loginForm{
+              width: 80%;
+     }
+}

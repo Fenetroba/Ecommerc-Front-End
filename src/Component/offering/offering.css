@@ -1,0 +1,104 @@
+.offering{
+     
+       /* height: 400px; */
+       margin: 10px;
+      
+
+}
+.offering h1{
+    font-size: 40px;
+    border-bottom: solid black 7px;
+    max-width: 600px;
+    text-transform: uppercase;
+    padding: 20px;
+
+}
+.offering_contener{
+   margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: #f3c331;
+    box-shadow: 2px 5px 9px rgba(0, 0,0,0.5);
+    border-radius: 3px;
+
+}
+.offering_contener .offering__contener_left img{
+
+   
+   border-radius:4px;
+   box-shadow: 12px 5px 9px rgba(0, 0,0,0.5);
+   
+}
+.offering__contener_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+   
+}
+.offer_contener_right_email, .offer_contener_right_password{
+    width:300px;
+    height: 34px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.986);
+    padding: 2px 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+   
+
+
+}
+.offer_contener_right_signIn{
+position: absolute;
+top: 0;
+padding: 3px;
+right: -50px;
+background-color: #b81936;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+cursor: pointer;
+
+}
+.offer_contener_right_signIn:hover{
+    box-shadow: 0 0 9px rgba(247, 243, 6, 0.899);
+    
+}
+@media screen and (max-width:1020px) {
+
+ .offering_contener{
+    flex-direction: column;
+ }  
+ .offer_contener_right_email, .offer_contener_right_password{
+    width:200px;
+    height: 24px;
+ } 
+ .offer_contener_right_signIn{
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+ }
+ .offering__contener_right input{
+    width: 200px;
+    padding: 0 10px;
+ }
+ .offering h1{
+    font-size: 30px;
+ }
+ .offering{
+   
+   
+ }
+
+}

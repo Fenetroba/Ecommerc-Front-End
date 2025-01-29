@@ -1,0 +1,53 @@
+.items{
+              margin: 10px; 
+              
+}
+
+.items span{
+     font-size: 25px;
+     color: #000000;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background: rgb(222, 244, 252);
+      border-radius: 50%;
+      padding: 5px;
+      opacity: 0;
+     
+}
+.items__contener:hover span{
+     opacity: 1;
+     transition: 1s;
+}
+.items__contener{
+              padding: 10px 5px;
+              border: solid 1px rgb(240, 165, 5);
+              cursor: pointer;
+              border-radius: 10px;
+              transition: transform 1s;
+              position: relative;
+              cursor: pointer;             
+              
+}
+.items__contener:hover{
+              transform: scale(1.1);
+}
+.product__title{
+              font-size: 14px;
+              font-family: 'Courier New', Courier, monospace;
+              font-weight: 900;
+}
+.price_contener{
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+
+}
+.product__prevPrice{
+              text-decoration: line-through;
+              color: #7a7a7a;
+}
+.product__color,.product__category{
+              text-transform: capitalize;
+              font-size: 15px;
+}

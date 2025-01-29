@@ -1,0 +1,76 @@
+.ProductDispalay{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              box-shadow: 0 0.9px 0 rgba(246, 213, 83, 0.8);
+              padding: 40px 0;
+}
+.productDisplay__contener{
+              display: flex;
+              gap: 40px;
+              flex-wrap: wrap;
+              margin: 40px;
+              
+}
+
+.productDisplay__contener__right:hover img{
+          transform: scale(1.2);
+          cursor: pointer;
+}
+.productDispalay__contner__left h1{
+              font-size: 30px;
+              margin: 30px 0;
+              text-transform: capitalize;
+}
+.productDisplay__contener__left_star .productDispalay_star{
+              color: gold;
+}
+.productDispalay__contener__left__price{
+              display: flex;
+             gap: 40px;
+              align-items: center;
+              padding: 20px 0;
+}
+.left__oldpric{
+              text-decoration: line-through;
+              color: rgb(159, 156, 156);
+
+}
+.left__newpric{
+              font-weight: 800;
+
+}
+.productDispalay__contner__left p{
+              margin: 10px 0;
+              color: rgb(176, 171, 171);
+}
+.productDisplay__contener__left__select_size{
+              display: flex;
+              margin: 20px 0;
+              gap: 30px;
+
+}
+.productDisplay__contener__left__select_size span{
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+              padding: 5px 10px;
+              border-radius: 5px;
+              cursor: pointer;
+
+}
+.productDisplay__contener__left__select_size span:active{
+              background-color: rgb(186, 181, 181);
+
+}
+.productDispalay__contner__left button{
+              padding: 5px 20px;
+              border: none;
+              outline: none;
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+              background-color: gold;
+              font-size: 18px;
+              cursor: pointer;
+}
+.productDispalay__contner__left button:active{
+              background-color: goldenrod;
+
+}

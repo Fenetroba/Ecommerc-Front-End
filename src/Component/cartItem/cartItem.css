@@ -1,0 +1,129 @@
+.cartsItem{
+     margin: 20px;
+
+}
+.cartItem{
+     padding: 30px;
+}
+.items_detals{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+     border-bottom: solid 2px #1d1e1e;
+}
+.cartElement{
+     border-bottom: solid 2px #1d1e1e;
+     padding: 6px 0;  
+}
+.cartElement img{
+     width: 50px;
+     height: 50px;
+}
+.cartElement{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.cartItem__total__contener {
+ margin: 30px 30px;
+ width: 50%;
+
+
+}
+.items_detals p{
+     font-weight: 800;
+}
+
+.cartItem__total__contener h1 {
+ font-size: 30px;
+ color: goldenrod;
+
+}
+
+.cart__total_item {
+ display: flex;
+ justify-content: space-between;
+
+
+}
+
+.cartItemTotal {
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+
+
+}
+
+.process_Button {
+ margin-top: 5px;
+ background-color: goldenrod;
+ border: none;
+ padding: 7px 20px;
+ cursor: pointer;
+}
+
+.process_Button:active {
+ background-color: rgb(243, 204, 104);
+}
+
+.total__prom_code p {
+ color: gray;
+
+}
+
+.totlaProm_code_input input {
+ border: none;
+ outline: none;
+ box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+ padding: 10px 30px;
+ background-color: rgb(241, 242, 212);
+}
+
+.totlaProm_code_input button {
+ width: 60px;
+ height: 60px;
+ background-color: black;
+ border-radius: 50%;
+ color: white;
+ margin-left: -10px;
+ cursor: pointer;
+}
+
+.totlaProm_code_input button:active {
+ background-color: rgb(60, 59, 59);
+}
+.quantity{
+     background-color: aliceblue;
+     text-align: center;
+     width: 25%;
+     height: 50%;
+}
+@media screen and (max-width:570px) {
+ .cartItem{
+     display: flex;
+ }
+     .items_detals{
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+             border-bottom: none;
+             border-right: solid  2px #1d1e1e;
+             padding-right: 10px;
+      
+     }
+     .cartElement img{
+          width: 40px;
+          height: 25px;
+     }
+     .cartElement{
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          padding:0 10px;
+     }
+     
+
+     
+}
